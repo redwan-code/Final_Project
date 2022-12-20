@@ -211,10 +211,10 @@ var splashScreen = function() {
     drawBitmoji(205, 248, 150, 155);//A drawBitmoji command to draw my Bitmoji in a specific     location and size on the splash scene
     image(getImage("avatars/mr-pants-with-hat"), 30, 209, 86, 100);//An image to put mr.pants in the splash scene
     image(getImage("creatures/Hopper-Cool"), 273, 216, 103, 88);//An image to put Hopper in the splash scene
-    Capitals.draw();//To  draw the capital letters botton on the splash scene
-    Lowers.draw();//To  draw the Lower Case botton on the splash scene
-    Coloring.draw();//To  draw the Coloring botton on the splash scene
-    Numbers.draw();//To  draw the Numbers botton on the splash scene
+    Capitals.draw();//To draw the capital letters botton on the splash scene
+    Lowers.draw();//To draw the Lower Case botton on the splash scene
+    Coloring.draw();//To draw the Coloring botton on the splash scene
+    Numbers.draw();//To draw the Numbers botton on the splash scene
 };
 
 //define a function for the Capital letters tracing scene
@@ -223,7 +223,7 @@ var traceCapitalsScene = function(inital) {
     fill(255, 255, 255);//The color of the text in the traceCapitalsScene
     textSize(59);//The size of the text on the traceCapitalsScene
     text(inital, 12, 50,404,330);//A text command to display text
-    
+    //to trace all buttons into the traceCapitalsScene
     orange.draw();
     yellow.draw();
     Green.draw();
