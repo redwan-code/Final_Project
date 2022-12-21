@@ -316,12 +316,12 @@ draw = function() {//A draw Function to draw scenes at certain scene numbers
 };
 //A mouse click function to make bottons handle a mouseClick so when clicked it does the command it was assigned
 mouseClicked = function(){
-    if(currentScene === 1){//For all the bottons on slpashScene
+    if(currentScene === 1){//For all the buttons on slpashScene
         Capitals.handleMouseClick();
         Lowers.handleMouseClick();
         Coloring.handleMouseClick();
         Numbers.handleMouseClick();
-    } else if (currentScene > 1){//For all the color bottons of colors
+    } else if (currentScene > 1){//For all the color buttons of colors
         orange.handleMouseClick();
         yellow.handleMouseClick();
         Green.handleMouseClick();
@@ -330,5 +330,3 @@ mouseClicked = function(){
         Pink.handleMouseClick();
     }
 };
-
-
